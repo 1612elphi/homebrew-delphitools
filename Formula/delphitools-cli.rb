@@ -1,25 +1,25 @@
 class DelphitoolsCli < Formula
   desc "delphitools CLI — indie toolkit for designers (colour, image, PDF, type, calc)"
   homepage "https://delphi.tools"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.1.0/delphitools-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "e7fbff80112a6549e7d98fe8b5d3b52b20ddf402416f006ba9facc6009d0cfd1"
+      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.2.0/delphitools-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "0b464ebf3e6788c6218b213b6198da90bafcaf1de9968b7195df9acf1faa1673"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.1.0/delphitools-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c54312aba2f9dd1d5e2ca5865376f9c6f52f3b6c761165c6e67f6e4b9240898f"
+      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.2.0/delphitools-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "251497bd2ae14786fb0a9c8a835e4a25858b76c8f5d72d11ebbb9845db1896ba"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.1.0/delphitools-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b07f4eb1820eb41e6a3f7d3ebb547d61399aca446a52562132ddfc8c78da2ab3"
+      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.2.0/delphitools-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ca4168beba276b871cc97d361050f2266cca7d45ce73c8dd16c7badc0e0910e0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.1.0/delphitools-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "96a11360914c552282053aa517703b5a6025ce8658b55fd8ed82dcf939c1be08"
+      url "https://github.com/1612elphi/delphitools-cli/releases/download/v0.2.0/delphitools-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "261b9daf5951c8aba022b746e495c8b9d39b7d6e18161e829609afdf50ca10b0"
     end
   end
   license "0BSD"
